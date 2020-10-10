@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 .magnificent{
   background-image: url(../assets/backgrounds/h_img.jpg);
@@ -58,8 +59,7 @@ img {
   padding-top: 10px;
   margin: 100px;
 }
-.port-text{
-  display: none;
+
 }
 .content-body {
   justify-content: center;
@@ -114,8 +114,8 @@ img {
     padding: 30px;
 }
 .port-text {
-  color: white;
-  font-size: 20px;
+  color: rgb(126, 119, 119);
+  font-size: 50px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -126,4 +126,17 @@ img {
 }
 .col-md-3:hover .overlay {
   opacity: 1;
+}
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
