@@ -45,7 +45,7 @@ function myname() {
   if (name === "" || email == "") {
     alert("Please enter name and email correctly...");
   } else {
-    alert(name + "" + " we have recieved your message. We'll gat to you as soon as possible");
+    alert(name + "" + " we have recieved your message. We'll get to you as soon as possible!");
   };
 };
 

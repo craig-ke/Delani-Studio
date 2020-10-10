@@ -78,16 +78,30 @@ img {
   align-items: center;
   vertical-align: middle;
 }
-
-.form-control {
+.form-controlA{
   background: transparent;
   border-color: white;
-  border-width: 2px;
-  color: white;
+  color:white;
+  width: 60%;
+  margin-left: 40%;
+  padding-bottom: 20px;
 }
-
+.form-controlB{
+  background: transparent;
+  border-color: white;
+  color:white;
+  width: 60%;
+  padding-bottom: 20px;
+}
+.form-controlE{
+  background: transparent;
+  border-color: white;
+  color:white;
+  width: 60%;
+  padding-bottom: 20px;
+}
 .sr-only {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .footer-sec {
   padding: 100px;
