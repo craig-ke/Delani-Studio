@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family:serif ;
+  font-family:josefin 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 .magnificent{
   background-image: url(../assets/backgrounds/h_img.jpg);
@@ -109,6 +109,7 @@ img {
     font-weight: bold;
     padding: 30px;
 }
-.content-body{
-height: 50px;
+
+.whatwedo-sec{
+  padding: inherit;
 }
