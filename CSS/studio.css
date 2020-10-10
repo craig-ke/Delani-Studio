@@ -13,7 +13,7 @@ body {
   color: aliceblue;
 }
 .mega-text{
-  margin-top: 150px;
+  margin-top: 80px;
 }
 .mega-text h1{
   font-size: 50px;
@@ -32,7 +32,7 @@ img {
 }
 .rider{
   background-image: url(../assets/backgrounds/s_image.jpg);
-  height: 500px;
+  height: 400px;
   background-position: center;
   background-size: cover;
   margin-bottom: 0;
@@ -60,6 +60,9 @@ img {
 }
 .port-text{
   display: none;
+}
+.content-body {
+  justify-content: center;
 }
 .contact-sec {
   padding: 100px;
