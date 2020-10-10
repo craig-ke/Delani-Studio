@@ -31,6 +31,14 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function(){
+  $("portfolio-header").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "pink");
+  });
+});
+
 
 function myname() {
   var name = document.getElementById("name").value;

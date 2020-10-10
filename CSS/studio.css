@@ -55,14 +55,15 @@ img {
   display: none;
 }
 .area-portfolio {
-  padding: 100px;
-  margin: 200px;
+  padding-top: 10px;
+  margin: 150px;
 }
 .port-text{
   display: none;
 }
 .content-body {
   justify-content: center;
+  padding: 1px;
 }
 .contact-sec {
   padding: 100px;
@@ -113,6 +114,4 @@ img {
     padding: 30px;
 }
 
-.whatwedo-sec{
-  padding: inherit;
-}
+
