@@ -113,5 +113,10 @@ img {
     font-weight: bold;
     padding: 30px;
 }
-
+.portfolio-header{
+  font-weight: bold;
+  padding: 30px;
+  font-size: 35px;
+  font-style: Impact,'Arial Narrow Bold', sans-serif ;
+}
 

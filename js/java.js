@@ -32,7 +32,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function(){
-  $("portfolio-header").hover(function(){
+  $("z").hover(function(){
     $(this).css("background-color", "yellow");
     }, function(){
     $(this).css("background-color", "pink");
