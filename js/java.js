@@ -32,8 +32,8 @@ $(document).ready(function () {
 });
 
 $(document).ready(function(){
-  $("z").hover(function(){
-    $(this).css("background-color", "yellow");
+  $("col-md-3").hover(function(){
+    $(this).css("background-picture", "yellow");
     }, function(){
     $(this).css("background-color", "pink");
   });
