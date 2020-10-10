@@ -68,7 +68,7 @@ img {
   padding: 100px;
   height: 600px;
   background-image: url(../assets/backgrounds/c_image.jpg);
-  color: aliceblue;
+  color: rgb(250, 250, 250);
   background-position: center;
   background-size: cover;
   background-repeat: no-
@@ -84,14 +84,14 @@ img {
   color:white;
   width: 60%;
   margin-left: 40%;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .form-controlB{
   background: transparent;
   border-color: white;
   color:white;
   width: 60%;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .form-controlE{
   background: transparent;
