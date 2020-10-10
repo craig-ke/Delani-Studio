@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family: ;
+  font-family:serif ;
 }
 .magnificent{
   background-image: url(../assets/backgrounds/h_img.jpg);
@@ -91,11 +91,20 @@ img {
 }
 
 .social-ul {
+  height: 50px;
   text-align: center;
   padding-left: 0;
+  padding: 50px;
 }
 
 .social-li {
   display: inline-block;
   list-style: none;
 } 
+.row{
+  padding: 50;
+}
+.content-header{
+    font-weight: bold;
+    padding: 30px;
+}
