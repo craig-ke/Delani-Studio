@@ -127,19 +127,24 @@ img {
     padding: 30px;
 }
 .port-text {
-  background-color: white;
-  color: black;
-  font-size: 16px;
-  padding: 16px 32px;;
+  color:white ;
+  font-size: 50px;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: transparent;
+  color: white;
+ }
+.container:hover .hov {
+  opacity: 0.3;
 }
 .col-md-3:hover .overlay {
   opacity: 1;
 }
-.col-md-3:hover .hov {
-  opacity: 0.3;
-}
-
 .overlay {
+  background-origin: padding-box;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -149,7 +154,7 @@ img {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.hov{
+.hov {
   opacity: 1;
   display: block;
   width: 100%;
