@@ -127,29 +127,33 @@ img {
     padding: 30px;
 }
 .port-text {
-  color: rgb(126, 119, 119);
-  font-size: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;;
 }
 .col-md-3:hover .overlay {
   opacity: 1;
 }
+.col-md-3:hover .hov {
+  opacity: 0.3;
+}
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
   transition: .5s ease;
-  background-color: transparent;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hov{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }

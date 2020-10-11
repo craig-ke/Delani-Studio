@@ -32,10 +32,10 @@ $(document).ready(function () {
 });
 
 $(document).ready(function(){
-  $("col-md-3").hover(function(){
-    $(this).css("background-picture", "yellow");
+  $("").hover(function(){
+    $(this).css("background-color", "whiteshadow");
     }, function(){
-    $(this).css("background-color", "pink");
+    $(this).css("background-color", "whiteshadow");
   });
 });
 
